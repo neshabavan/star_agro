@@ -318,6 +318,16 @@ Row(
                                   'Products for crop maintenance.',
                             ),
                           ),
+                            SizedBox(
+                            width: cardWidth,
+                            child: _productCard(
+                              imagePath: 'assets/images/crop_care.jpg',
+                              productName: 'Crop Care',
+                              category: 'Crop Care',
+                              description:
+                                  'Products for crop maintenance.',
+                            ),
+                          ),
                         
                         ],
                       );
